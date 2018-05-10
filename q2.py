@@ -3,6 +3,18 @@ Question 2
 Given a string a, find the longest palindromic substring contained in a.
 Your function definition should look like question2(a), and return a string.
 """
+"""
+Algorithm:
+1. Check if the string is not empty. If empty return.
+2. check length of the string passed
+3. take three temp variables longest, left and right. and initialize them to 0.
+4. For the whole string subdivide the string and check f it palindrom.
+5. find the longest string that is a palindrome. It'll have highest value for the variable longest.
+
+This O(n^2)
+"""
+
+
 # @param {string} s input string
 # @return {bool} if string is palindrome or not
 def isPalindrome(s):
